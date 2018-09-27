@@ -1,0 +1,67 @@
+﻿.header {
+  background: url('/img/background.jpg');
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -60px;
+  z-index: 9;
+}
+.layer {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+}
+.lion-nav {
+  background-color: transparent !important;
+}
+.bg-lion {
+  background: #fbda1b;
+  background-color: #fbda1b;
+  color: #2b2a2f;
+  z-index: 9;
+}
+.bg-lion > * {
+  background: #fbda1b;
+  background-color: #fbda1b;
+  color: #2b2a2f;
+  z-index: 9;
+}
+.lion-logo-container {
+  padding: 20px;
+}
+.lion-logo-container {
+  position: absolute;
+  z-index: 10;
+  left: 40%;
+  margin: 0 auto;
+  top: 50%;
+  width: 25%;
+  float: left;
+  transform: translate(-10%, -50%);
+}
+.logo {
+  width: 100%;
+}
+.lion-text-container {
+  position: absolute;
+  z-index: 10;
+  width: 50%;
+  left: 5%;
+  top: 25%;
+}
+.hero-text {
+  position: relative;
+  top: -40px;
+}
+.hero-text > * {
+  color: black;
+  font-weight: 600;
+  font-size: 2em;
+  text-align: center;
+}
+.nav-link {
+  color: #2b2a2f !important;
+  font-weight: bold;
+}
